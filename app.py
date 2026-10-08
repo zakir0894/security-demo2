@@ -13,4 +13,5 @@ def read_file(filename):
         return f.read()
 
 run_command("ls")
-print(get_password())
+get_password()
+print("Password retrieved successfully.")
